@@ -16,6 +16,6 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Generate and Publish GitAscii SVGs
-        uses: Igorcbraz/GitAscii/action@main
+        uses: Igorcbraz/GitAscii/action@18476f2d794c5ea32276a866115c5a4b783189b8
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
